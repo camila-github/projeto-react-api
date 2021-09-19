@@ -1,0 +1,23 @@
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.dados {
+  padding: 0px;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dados li {
+  font-size: 1.1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: .8rem;
+}
+
+.dados li::before {
+  content: '';
+  width: 20px;
+  height: 2px;
+}

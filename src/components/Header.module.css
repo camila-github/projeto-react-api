@@ -1,0 +1,95 @@
+.header {
+  margin-bottom: 2rem;
+  width: 60%;
+  height: 90%;
+}
+
+.imgHeader{
+  border-radius: 10px;
+  border: 8px solid #f35d07;  
+  border-right: 0;
+  border-left: 0;
+  margin-bottom: 2rem;  
+  border-radius: 20%;
+  min-width: 100%;  
+}
+
+.imgHHeaderText{
+  position: relative;
+  bottom: 300px;
+  justify-content: center;
+  left: 15rem;
+}
+
+.header ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header ul li {
+  margin-right: 1rem;
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background: #ccc;
+  padding: .5rem 1rem;
+  border-radius: 4px;
+}
+
+.active,
+.link:hover {
+  background: #eee;
+}
+
+@media screen and (max-width: 1050px) {
+  .produtos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.2rem;
+  }
+
+  .produtos a img {
+    width: 25rem;
+    height: 35rem;
+  }
+
+  .imgHHeaderText{
+    bottom: 250px;
+    left: 12rem;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  .imgHHeaderText{
+    bottom: 250px;
+    left: 9rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .imgHHeaderText{
+    bottom: 230px;
+    left: 6rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .imgHHeaderText{
+    bottom: 210px;
+    left: 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .imgHHeaderText{
+    bottom: 160px;
+    left: 2rem;
+  }
+}

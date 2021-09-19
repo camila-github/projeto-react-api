@@ -1,0 +1,79 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+.produtos a img {
+  -webkit-box-shadow: 0 25px 50px -25px #f35d07;
+          box-shadow: 0 25px 50px -25px #f35d07;
+  top: -10px;
+}
+
+.produtos a:hover {
+  transition: .9s all;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.nome {
+  margin: .5rem 0;
+  background: linear-gradient(to top left, #e6dcd7, #f35d07);
+  color: #4e1e03;
+  border-radius: 6px;
+  padding: 1px;
+  position: relative;
+  bottom: 15rem;
+  text-align: center;
+  transform: rotate(-90deg);
+  left: -8rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+
+  .nome{
+    bottom: 18rem;
+    left: -9rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .produtos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.2rem;
+    text-align: center;
+  }
+
+  .produtos a img {
+    width: 60%;
+    height: 80%;
+  }
+
+
+  .nome{
+    bottom: 20rem;
+    left: -2rem;
+    width: 26rem;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .nome{
+    bottom: 12rem;
+    left: -1rem;
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .nome{
+    bottom: 10rem;
+    width: 15rem;
+  }
+}
