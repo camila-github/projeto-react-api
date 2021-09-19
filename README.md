@@ -2,7 +2,7 @@
 
 - O intuito do projeto foi criar um site que realiza consulta de uma API externa, com uso de ReactJS
 
-## Conceitos e ferramentas utilizadas
+## Ferramentas utilizadas
 
 - ReactJS: 
 
